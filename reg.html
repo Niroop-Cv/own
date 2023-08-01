@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>reg form</title>
+        <link rel="stylesheet" href="./styles/reg.css">
+    </head>
+    <body>
+        <style>
+            *{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    padding: 50px;
+    color: #fff;
+}
+.p1{
+    width: 100%;
+    height: 10%;
+}
+.banner{
+    width: 100%;
+    height: 675px;
+}
+.h1{
+    color:#fff;
+    margin-top: -78px;
+}
+.label{
+    padding-bottom: 10px;
+}
+.Register{
+  background-color: #eb4917;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0 0 10px;
+  border: none;
+  cursor: pointer;
+  width: 10%;
+}
+.input{
+    padding: 10px;
+    width: 40%;
+    margin: 8px;
+}
+.p2{
+     width: 100%;
+     height: 100px;
+}
+.input1{
+    width: 90px;
+    height:35px;
+}
+.end{
+    color: #fff;
+    margin-left: 400px;
+    margin-top: -101px;
+    font-size: 16px;
+    font-weight: 900;
+}
+        </style>
+        <div class="p1">
+            <div class="p2">
+                <img class="banner" src="./imege/banner.jpg" alt>
+            </div>
+            <form>
+                <div class="container">
+                    <h1 class="h1">Register</h1>
+                    <p class="para1"> create an account</p>
+                    <label><b>Upload Your Photo</b></label>
+                    <input class="input1" type="file" placeholder="Upload file"><br>
+
+                    <p>Gender</p>
+
+                    <input type="radio" name="your gender">
+                    <label for="male">male</label><br>
+                    <input type="radio" name="your gender">
+                    <label for="female">female</label><br>
+
+                    <label class="label"><b>Email</b></label><br>
+                    <input class="input" type="text" placeholder="Enter Email"><br>
+
+                    <label class="label"><b>Password</b></label><br>
+                    <input class="input" type="password"
+                        placeholder="Enter Password"><br>
+
+                    <label class="label"><b>Vehicle Number</b></label><br>
+                    <input class="input" type="text"
+                        placeholder="eg:US CR 0007">
+                    <br>
+
+                    <button type="submit" class="Register">Register</button>
+                </div>
+                <div class="end">
+                <input type="checkbox" id="" name="" value="Bike">
+                <label for="vehicle1"> 600 CC</label><br>
+                <input type="checkbox" id="" name="" value="Bike">
+                <label for="vehicle1"> Above 600 CC</label><br>
+                </div>
+
+                <div class="container signin">
+                    <p>Already have an account? <a href>Sign in</a></p>
+                </div>
+            </form>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,285 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.nav {
+    background-color: rgb(218, 13, 13);
+}
+
+.img1 {
+    width: 90px;
+    margin-left: 90px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.first-ul {
+    list-style: none;
+    display: flex;
+    color: #fff;
+    font-weight: 800;
+    justify-content: center;
+}
+
+.first-ul li {
+    padding: 22px;
+    margin-top: -70px;
+    cursor: pointer;
+}
+
+.first-ul li:hover {
+    color: black;
+}
+
+.img2 {
+    width: 100%;
+    height: 560px;
+    position: relative;
+}
+
+.heading {
+    position: absolute;
+}
+
+.h1 {
+    font-weight: 900;
+    top: 50%;
+    color: #fff;
+    padding: 134px;
+    margin-left: 121px;
+    margin-top: -500px;
+    font-size: 58px;
+    line-height: 52px;
+    font-family: acumin-pro-condensed, Segoe UI, Helvetica Neue, Arial, Noto Sans, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji, -apple-system, sans-serif;
+}
+
+.h2 {
+    font-weight: 900;
+    font-size: 58px;
+    line-height: 52px;
+    font-family: acumin-pro-condensed, Segoe UI, Helvetica Neue, Arial, Noto Sans, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji, -apple-system, sans-serif;
+    color: #fff;
+    margin-left: 256px;
+    margin-top: -105px;
+}
+
+.button1 {
+    color: #fff;
+    background-color: red;
+    padding: 10px 10px;
+    font-weight: 600;
+    margin-left: 42%;
+    border-style: none;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.button1:hover {
+    color: red;
+    border-style: solid;
+    border-color: #fff;
+}
+
+.button1 a {
+    text-decoration: none;
+    color: #fff;
+}
+.img3{
+    width: 100%;
+}
+.h3{
+    font-weight: 900;
+    font-size: 34px;
+    margin-top: -609px;
+    margin-left: 468px;
+    font-family: acumin-pro-condensed, Segoe UI, Helvetica Neue, Arial, Noto Sans, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji, -apple-system, sans-serif;
+    color: black;
+}
+.h4{
+    margin-top: 558px;
+    margin-left: 324px;
+    font-weight: 900;
+    font-size: 58px;
+    line-height: 70px;
+    font-family: acumin-pro-condensed, Segoe UI, Helvetica Neue, Arial, Noto Sans, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji, -apple-system, sans-serif;
+    color: red;
+} 
+.audio{
+    margin-left: 600px;
+    margin-top: 30px;
+}
+.news{
+    margin-left: -58px;
+    margin-top: -39px;
+}
+.track{
+    margin-top: 40px;
+    height: 900px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+.pics{
+    display: grid;
+    grid-template-columns: repeat(2,300px);
+    row-gap: 400px;
+    margin-left: 170px;
+    margin-top: -413px;
+    height:100px;
+    width: 90px;
+    
+}
+.pics img{
+    height:380px; 
+    width:250px;
+    transition: transform 100ms;
+}
+.pics:hover{
+    transform: scale(0.90);
+    cursor: pointer;
+    
+}.pics-container{
+    display: grid;
+    grid-template-columns: repeat(2,300px);
+    row-gap: 400px;
+    position: absolute;
+    z-index: 1;
+    bottom: 0;
+    left: 190px;
+
+}
+.table{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 500px;
+    border: 2px solid black;
+    margin-left: 75px;
+    margin-top: 27px;
+    cursor: pointer;
+}
+.down-logo{
+    margin-left: 835px;
+    width: 111px;
+    cursor: pointer;
+}
+.table,td,th,tr{
+    padding: 7px;
+    text-align: left;
+    border-collapse: collapse;
+    border: 2px solid black;
+    width: 50%;
+}
+.table th{
+    background-color: rgb(19, 146, 250);
+    color: #fff;
+}
+.h5{
+    margin-left: 839px;
+    margin-top: -112px;
+    font-size: 36px;
+    color: red;
+}
+.down{
+    margin-top: -17px;
+    margin-left: 75px;
+}
+.video-div{
+    margin-left: 700px;
+    margin-top: -297px;
+}
+.button2{
+    color: white;
+    background-color: red;
+    padding: 5px;
+    font-weight: 600;
+    font-size: 10px;
+    cursor: pointer;
+    border: solid;
+}
+.footer{
+        margin-top: 117px;
+        height: 425px;
+}
+.h6{
+    margin-left: 525px;
+    font-size: 20px;
+    color: rgb(192,194,197);
+    font-family:var(--g-typography-title);
+
+}
+.img4{
+    margin-top: 16px;
+    margin-left: 422px;
+}
+.img5{
+    margin-left: 45px;
+}
+.img6{
+   width: 80px;
+   margin-left: 50px;
+}
+.media li{
+    list-style: none;
+    line-height: 26px;
+}
+.media{
+    margin-top: 10px;
+    font-family: var(--g-typography-copy-light);
+    color: rgb(192,194,197);
+}
+.h7{
+    margin-top: 15px;
+}
+.help li{
+    list-style: none;
+    line-height: 26px;
+}
+.help{
+    font-family: var(--g-typography-copy-light);
+    color: rgb(192,194,197);  
+}
+.div-help{
+    margin-left: 257px;
+    margin-top: -105px;
+}
+.ticket li{
+    list-style: none;
+    line-height: 26px;
+}
+.ticket{
+    font-family: var(--g-typography-copy-light);
+    color: rgb(192,194,197);  
+}
+.div-ticket{
+    margin-left: 150px;
+    margin-top: -73px;
+}
+.game li{
+    list-style: none;
+    line-height: 26px;
+    line-height: 26px;
+}
+.game{
+    font-family: var(--g-typography-copy-light);
+    color: rgb(192,194,197);  
+}
+.game-div{
+    margin-left: 225px;
+    margin-top: -96px;
+}
+.last-one li{
+list-style: none;
+line-height: 26px;
+}
+.last-one{
+    font-family: var(--g-typography-copy-light);
+    color: rgb(192,194,197);  
+}
+.about{
+    margin-left: 250px;
+    margin-top: -150px;
+}
+.total{
+    margin-left: 100px;
+    margin-top: 42px;
+}
